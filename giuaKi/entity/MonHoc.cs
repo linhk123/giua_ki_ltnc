@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace giuaKi.entity
 {
-    internal class Khoa
+    internal class MonHoc
     {
+        public string MaMH { get; set; }
         public string MaKhoa { get; set; }
-        public string TenKhoa { get; set; }
-
-        
+        public string TenMH { get; set; }
+        public int SoTinChi { get; set; }
+        public int HocKy { get; set; }
     }
 }
